@@ -276,7 +276,7 @@
             </div>
 
             <p class="text-sm text-slate-300 leading-relaxed">
-              Automated job scraper and search platform continuously aggregating open roles from 1,200+ global VFX, animation, and gaming studios across 5 continents.
+              Automated job scraper and search platform continuously aggregating open roles from 1,200+ global VFX, animation, and gaming studios with automated distribution to LinkedIn, Discord, and Reddit.
             </p>
 
             <!-- Technical Highlights -->
@@ -286,7 +286,7 @@
                 <li><strong class="text-slate-100">Decoupled Phase Pipeline:</strong> Discovery -> Direct ATS API & Playwright Scrapers -> Git-Tracked Raw Ledger -> Gemini Parser -> Software Enricher -> CSR Dashboard.</li>
                 <li><strong class="text-slate-100">Multi-Model Failover Waterfall:</strong> Automated key rotation and fallback across Gemini, DeepSeek, and Qwen with circuit breakers.</li>
                 <li><strong class="text-slate-100">Token Cost Optimization:</strong> Cheerio-based DOM stripping preprocessor reducing inference token load by ~70%.</li>
-                <li><strong class="text-slate-100">Software Intelligence Layer:</strong> Semantic extraction of Houdini, USD, Python, Maya, and Unreal dependencies from unstructured postings.</li>
+                <li><strong class="text-slate-100">Multi-Channel Syndication:</strong> Automated distribution engine formatting and broadcasting curated updates to LinkedIn, Discord, and Reddit.</li>
               </ul>
             </div>
           </div>
@@ -808,9 +808,10 @@
           { name: "Phase A: High-Speed Extract & Raw Ledger", detail: "Direct ATS REST connectors (Greenhouse, Lever, Workday) + Headless Playwright Chrome engines for JS-heavy portals. Saves raw HTML snapshots directly to a Git ledger." },
           { name: "Phase B: Preprocessing & Semantic Parser", detail: "Cheerio DOM sanitization strips ~70% token overhead. Gemini transforms unstructured HTML into strictly typed JSON." },
           { name: "Phase C: Multi-Model Failover Waterfall", detail: "Automated key rotation and fallback cascade (Gemini -> DeepSeek -> Qwen) guaranteeing zero downtime during upstream API rate limits." },
-          { name: "Phase D: Software-First Intelligence Layer", detail: "Extracts deep DCC and pipeline dependencies (Houdini, USD, VEX, Python, Maya, Unreal, Nuke) for high-precision query filtering." }
+          { name: "Phase D: Software-First Intelligence Layer", detail: "Extracts deep DCC and pipeline dependencies (Houdini, USD, VEX, Python, Maya, Unreal, Nuke) for high-precision query filtering." },
+          { name: "Phase E: Multi-Channel Syndication", detail: "Automated broadcast engine formatting and distributing curated job alerts to LinkedIn, Discord webhooks, and Reddit communities." }
         ],
-        stack: ["Gemini", "Playwright", "Node.js", "Cheerio", "Supabase", "SQLite", "CSR Client-Side Engine"]
+        stack: ["Gemini", "Playwright", "Node.js", "Cheerio", "Supabase", "SQLite", "Discord Webhooks", "LinkedIn API"]
       },
       cinescript: {
         title: "CineScript — AI Storyboard Generator",
