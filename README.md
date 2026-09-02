@@ -1,9 +1,9 @@
-# Alex Doss — Systems Architect & Applied AI Builder
+# Alex Doss — Pipeline TD & Applied AI Developer
 
-Alex Doss | Systems Architect & Pipeline Developer | Amsterdam, NL  
-Website: [alexdoss.com](http://alexdoss.com) | Email: [hello@alexdoss.com](mailto:hello@alexdoss.com) | LinkedIn: [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss) | GitHub: [github.com/whoisit](https://github.com/whoisit)
+Alex Doss | Pipeline Technical Director & Applied AI Developer | Amsterdam, NL  
+Website: [alexdoss.com](https://alexdoss.com) | Email: [hello@alexdoss.com](mailto:hello@alexdoss.com) | LinkedIn: [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss) | GitHub: [github.com/whoisit](https://github.com/whoisit)
 
-> "Systems Architect & Pipeline Developer applying 20 years of procedural systems engineering to production-grade AI pipelines, full-stack tools, and synthetic data platforms."
+> "Pipeline Technical Director applying 20 years of procedural 3D systems engineering to applied AI platforms, autonomous agentic CLI tooling, and synthetic data generation."
 
 ---
 
