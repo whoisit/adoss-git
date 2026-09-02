@@ -7,7 +7,7 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 ## Overview
 
 - **Procedural 3D & Pipeline Engineering:** 20 years building DCC tools, procedural workflows (Houdini, OpenUSD, VEX, Python), and simulation setups across 180+ productions.
-- **Applied AI Applications:** Built ConnectVFX (job scraping & indexing pipeline for 1,200+ studios) and CineScript (AI storyboard generator with character consistency).
+- **Applied AI Applications:** Built [ConnectVFX](https://www.connectvfx.app/) (job scraping & indexing pipeline for 1,200+ studios) and [CineScript](https://cinescript-storyboarder.vercel.app/) (AI storyboard generator with character consistency).
 - **CLI & Automation Tools:** Headless Playwright scrapers, multi-model LLM failovers (Gemini, DeepSeek, Qwen), and process-safe audio concurrency (`VoiceMutex`).
 - **Full-Stack & Data:** TypeScript, React 19, Node.js, Vercel Serverless, SQLite, and Supabase.
 
@@ -16,6 +16,7 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 ## Projects
 
 ### 1. ConnectVFX — Automated Job Board & Scraper Pipeline
+**Live:** [connectvfx.app](https://www.connectvfx.app/)  
 Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studios globally.
 - **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Raw HTML snapshots are committed locally to a Git ledger.
 - **Parsing & Fallback:** Gemini with automated fallback to DeepSeek and Qwen when rate-limited.
@@ -26,6 +27,7 @@ Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studi
 ---
 
 ### 2. CineScript — AI Storyboard Generator
+**Live:** [cinescript-storyboarder.vercel.app](https://cinescript-storyboarder.vercel.app/)  
 Converts screenplays into visual storyboards while keeping character appearance and camera style consistent across shots.
 - **Character Consistency:** Generates and references character model sheets across shot prompts to prevent character drift between scenes.
 - **Screenplay Parser:** Converts screenplay sluglines and scene actions into camera, lighting, and lens directives for image models (FLUX / SDXL).
