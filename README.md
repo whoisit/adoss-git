@@ -6,64 +6,62 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 
 ## Overview
 
-- **Procedural 3D & Pipeline Engineering:** 20 years designing automated data flows, DCC tools (Houdini, OpenUSD, VEX, Python), and simulation architectures across 180+ productions.
-- **Applied AI Platforms:** Creator of ConnectVFX (1,200+ studio ETL intelligence) and CineScript (generative visual continuity studio).
-- **Agentic & CLI Tooling:** Autonomous scraping engines, multi-model failover waterfalls (Gemini 3.1 Flash-Lite, DeepSeek, Qwen), and process-safe concurrency systems (`VoiceMutex`).
-- **Full-Stack & Persistence:** Production TypeScript, React 19, Node.js, Vercel Serverless, and local SQLite / Supabase storage.
+- **Procedural 3D & Pipeline Engineering:** 20 years building DCC tools, procedural workflows (Houdini, OpenUSD, VEX, Python), and simulation setups across 180+ productions.
+- **Applied AI Applications:** Built ConnectVFX (job scraping & indexing pipeline for 1,200+ studios) and CineScript (AI storyboard generator with character consistency).
+- **CLI & Automation Tools:** Headless Playwright scrapers, multi-model LLM failovers (Gemini, DeepSeek, Qwen), and process-safe audio concurrency (`VoiceMutex`).
+- **Full-Stack & Data:** TypeScript, React 19, Node.js, Vercel Serverless, SQLite, and Supabase.
 
 ---
 
-## Key Production Systems
+## Projects
 
-### 1. ConnectVFX — Global AI Job Intelligence & Scraper Pipeline
-An automated, AI-powered intelligence platform aggregating job listings from 1,200+ global VFX, animation, and gaming studios across 5 continents.
-- Decoupled Phase Architecture: Discovery -> Direct ATS REST Connectors (Greenhouse, Lever, Workday) & Headless Playwright Chrome engines -> Local Git-tracked raw ledger -> Gemini 3.1 Flash-Lite semantic parser -> Software-first enricher -> CSR Client Dashboard.
-- Multi-Model Failover Waterfall: Automatic key rotation & model fallback (Gemini 3.1 -> DeepSeek -> Qwen) with automated circuit breakers to guarantee continuous uptime under rate limits.
-- Token Cost Engineering: Cheerio DOM sanitization preprocessing strips scripts, styles, and navigational chrome, reducing LLM token consumption by ~70%.
-- Software-First Intelligence: Semantic extraction of deep pipeline requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke) for high-precision filtering.
-
----
-
-### 2. CineScript — Generative AI Storyboard & Visual Script Studio
-Full-stack platform converting screenplays and shot lists into production-grade visual storyboards with strict character model consistency and cinematic camera continuity.
-- Visual Anchor Conditioning: Generates persistent multi-angle character and environment reference sheets to eliminate AI character drift across multi-shot sequences.
-- Chain-of-Responsibility Parser: Deconstructs standard screenplay sluglines and actions into photoreal camera lens, lighting, and blocking directives.
-- Client-Side Document Engine: High-resolution multi-page PDF generation rendered directly in the browser via memory-managed Canvas streaming.
-- Tech Stack: React 19, TypeScript, Vercel Serverless Functions, FLUX / Stable Diffusion, Tailwind CSS, Stripe.
+### 1. ConnectVFX — Automated Job Board & Scraper Pipeline
+Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studios globally.
+- **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Raw HTML snapshots are committed locally to a Git ledger.
+- **Parsing & Fallback:** Gemini 3.1 Flash-Lite with automated fallback to DeepSeek and Qwen when rate-limited.
+- **Token Reduction:** Cheerio-based HTML preprocessor strips unnecessary tags, reducing LLM token consumption by ~70%.
+- **Skill Extraction:** Parses job descriptions to automatically index tool requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke).
 
 ---
 
-### 3. Procedural 3D & Synthetic Simulation Engine
-High-throughput procedural systems in SideFX Houdini generating photoreal synthetic datasets, physics simulations, and domain-randomized training data for computer vision and robotics.
-- Domain Randomization: OpenUSD & Solaris pipeline randomizing camera intrinsics, lighting spectra, micro-surface imperfections, and wear to eliminate the sim-to-real gap.
-- Procedural HDAs & VEX: Parametric asset synthesis with deterministic seed control for dataset scalability.
-- Production Pedigree: 20 years of production experience, including biomechanical cardiac simulation (HeartWorks) and 100,000+ agent autonomous crowd simulations.
+### 2. CineScript — AI Storyboard Generator
+Converts screenplays into visual storyboards while keeping character appearance and camera style consistent across shots.
+- **Character Consistency:** Generates and references character model sheets across shot prompts to prevent character drift between scenes.
+- **Screenplay Parser:** Converts screenplay sluglines and scene actions into camera, lighting, and lens directives for image models (FLUX / SDXL).
+- **Client-Side Export:** Generates multi-page storyboard PDFs directly in the browser via canvas rendering.
+- **Stack:** React 19, TypeScript, Vercel Serverless Functions, Stripe billing.
 
 ---
 
-### 4. AI Automation & Concurrency Architecture
-Custom agent tooling and workflow acceleration extensions built for autonomous engineering.
-- VoiceMutex IPC Locking: Multi-process non-blocking audio queue preventing speech overlap during multi-agent autonomous runs.
-- Zero-Egress Scraping: Playwright-driven aggregators persisting structured deal metrics and listings directly into local SQLite/Git ledgers.
-- Antigravity Toolkits: Custom CLI skill bindings and MCP tools extending Google DeepMind Antigravity capabilities.
+### 3. Procedural 3D & Synthetic Data
+Procedural 3D generation and simulation in SideFX Houdini for VFX and computer vision datasets.
+- **Synthetic Datasets:** Procedural asset generation in Houdini with OpenUSD / Solaris domain randomization (lighting, textures, wear) for training computer vision models.
+- **Procedural Tooling:** Custom HDAs and VEX scripts for geometry processing, debris, and crowd networks.
+- **Production Background:** Biomechanical cardiac simulation (*HeartWorks*) and crowd simulations exceeding 100,000 agents across 180+ productions.
 
 ---
 
-## Technical Matrix
+### 4. CLI & Agentic Tooling
+- **`VoiceMutex`:** Inter-process concurrency lock preventing audio collision when multiple autonomous agent tasks run in parallel.
+- **Local Scrapers:** Playwright collectors that parse and write directly to local SQLite without sending data to third parties.
+- **Antigravity Toolkits:** Custom CLI commands and skill integrations for agent workflows.
 
-| Domain | Technologies & Frameworks |
+---
+
+## Technical Skills
+
+| Area | Technologies |
 | :--- | :--- |
-| AI & LLM Orchestration | Gemini 3.1 / 1.5 Pro & Flash, DeepSeek, Qwen, FLUX, Structured JSON Schemas, Multi-Model Failover Waterfalls, Prompt Pipelines, MCP |
-| Full-Stack & Cloud | TypeScript, React 19, Node.js, Vercel Serverless, Supabase, PostgreSQL, SQLite, Playwright, Tailwind CSS, REST & ATS APIs |
-| Procedural 3D & VFX | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python hou API, Redshift, Arnold, Foundry Nuke, Biomechanical Rigging |
-| Languages & Core | Python 3.x, TypeScript / ESNext, VEX, SQL, C++, PowerShell, Bash, Git & GitHub Actions CI/CD |
+| **Applied AI & LLMs** | Gemini, DeepSeek, Qwen, FLUX, SDXL, Structured JSON outputs, Prompt pipelines |
+| **Pipeline & 3D** | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python (hou API), Redshift, Nuke |
+| **Web & Automation** | TypeScript, React 19, Node.js, Playwright, SQLite, Supabase, Vercel Serverless, REST APIs |
+| **Languages & Core** | Python, TypeScript, JavaScript, VEX, SQL, Bash, PowerShell, Git |
 
 ---
 
-## Contact & Profiles
+## Contact & Links
 
-- Website: [alexdoss.com](http://alexdoss.com)
+- Website: [alexdoss.com](https://alexdoss.com)
 - Email: [hello@alexdoss.com](mailto:hello@alexdoss.com)
 - LinkedIn: [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss)
 - GitHub: [github.com/whoisit](https://github.com/whoisit)
-- Location: Amsterdam, Netherlands
