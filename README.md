@@ -58,7 +58,7 @@ Procedural 3D generation and simulation in SideFX Houdini for VFX and computer v
 | **Applied AI & LLMs** | Gemini, Claude, GPT, Grok, DeepSeek, Perplexity, FLUX, SDXL, Structured JSON |
 | **Pipeline & 3D** | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python (hou API), Redshift, Nuke |
 | **Web & Automation** | TypeScript, React 19, Node.js, Playwright, SQLite, Supabase, Vercel, Cloudflare Wrangler, Stripe |
-| **Languages & CLI Tools** | Python, TypeScript, JavaScript, VEX, SQL, Bash, PowerShell, Git, GitHub Actions, Antigravity CLI |
+| **Languages & CLI Tools** | Python, TypeScript, VEX, SQL, Bash, PowerShell, Git, GitHub Actions, Antigravity CLI |
 
 ---
 
