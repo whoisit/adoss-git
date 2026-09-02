@@ -283,7 +283,7 @@
             <div class="space-y-2 pt-1">
               <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider font-mono">Architecture Highlights:</div>
               <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
-                <li><strong class="text-slate-100">Decoupled Phase Pipeline:</strong> Discovery -> Direct ATS API & Playwright Scrapers -> Git-Tracked Raw Ledger -> Gemini 3.1 Parser -> Software Enricher -> CSR Dashboard.</li>
+                <li><strong class="text-slate-100">Decoupled Phase Pipeline:</strong> Discovery -> Direct ATS API & Playwright Scrapers -> Git-Tracked Raw Ledger -> Gemini Parser -> Software Enricher -> CSR Dashboard.</li>
                 <li><strong class="text-slate-100">Multi-Model Failover Waterfall:</strong> Automated key rotation and fallback across Gemini, DeepSeek, and Qwen with circuit breakers.</li>
                 <li><strong class="text-slate-100">Token Cost Optimization:</strong> Cheerio-based DOM stripping preprocessor reducing inference token load by ~70%.</li>
                 <li><strong class="text-slate-100">Software Intelligence Layer:</strong> Semantic extraction of Houdini, USD, Python, Maya, and Unreal dependencies from unstructured postings.</li>
@@ -294,7 +294,7 @@
           <!-- Tech Stack Tags & Actions -->
           <div class="pt-4 border-t border-slate-800/80 space-y-4">
             <div class="flex flex-wrap gap-1.5">
-              <span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800/80 text-slate-300 border border-slate-700/60">Gemini 3.1 Flash-Lite</span>
+              <span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800/80 text-slate-300 border border-slate-700/60">Gemini</span>
               <span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800/80 text-slate-300 border border-slate-700/60">Playwright</span>
               <span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800/80 text-slate-300 border border-slate-700/60">Node.js</span>
               <span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800/80 text-slate-300 border border-slate-700/60">Supabase</span>
@@ -547,12 +547,15 @@
               <span>AI, LLM Orchestration & Prompt Pipelines</span>
             </h3>
             <div class="flex flex-wrap gap-2">
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Gemini (3.1 Flash / Pro)</span>
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">DeepSeek & Qwen</span>
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">FLUX / Stable Diffusion</span>
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Structured JSON Outputs</span>
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Multi-Model Failover Waterfalls</span>
-              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Token Cost Optimization</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Gemini</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Claude</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">GPT</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Grok</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">DeepSeek</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Perplexity</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">FLUX / SDXL</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Structured JSON</span>
+              <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Prompt Pipelines</span>
               <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Agentic Tooling & MCP</span>
             </div>
           </div>
@@ -801,11 +804,11 @@
         phases: [
           { name: "Phase 0: Multi-Vector Discovery", detail: "Scouts boutique vendors, IMDb credits, and non-traditional employers (NASA, SpaceX, Apple, AI Research Labs)." },
           { name: "Phase A: High-Speed Extract & Raw Ledger", detail: "Direct ATS REST connectors (Greenhouse, Lever, Workday) + Headless Playwright Chrome engines for JS-heavy portals. Saves raw HTML snapshots directly to a Git ledger." },
-          { name: "Phase B: Preprocessing & Semantic Parser", detail: "Cheerio DOM sanitization strips ~70% token overhead. Gemini 3.1 Flash-Lite transforms unstructured HTML into strictly typed JSON." },
-          { name: "Phase C: Multi-Model Failover Waterfall", detail: "Automated key rotation and fallback cascade (Gemini 3.1 -> DeepSeek -> Qwen) guaranteeing zero downtime during upstream API rate limits." },
+          { name: "Phase B: Preprocessing & Semantic Parser", detail: "Cheerio DOM sanitization strips ~70% token overhead. Gemini transforms unstructured HTML into strictly typed JSON." },
+          { name: "Phase C: Multi-Model Failover Waterfall", detail: "Automated key rotation and fallback cascade (Gemini -> DeepSeek -> Qwen) guaranteeing zero downtime during upstream API rate limits." },
           { name: "Phase D: Software-First Intelligence Layer", detail: "Extracts deep DCC and pipeline dependencies (Houdini, USD, VEX, Python, Maya, Unreal, Nuke) for high-precision query filtering." }
         ],
-        stack: ["Gemini 3.1 Flash-Lite", "Playwright", "Node.js", "Cheerio", "Supabase", "SQLite", "CSR Client-Side Engine"]
+        stack: ["Gemini", "Playwright", "Node.js", "Cheerio", "Supabase", "SQLite", "CSR Client-Side Engine"]
       },
       cinescript: {
         title: "CineScript — AI Storyboard Generator",
