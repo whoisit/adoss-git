@@ -1,18 +1,15 @@
 # Alex Doss — Pipeline TD & Applied AI Developer
 
-Alex Doss | Pipeline Technical Director & Applied AI Developer | Amsterdam, NL  
-Website: [alexdoss.com](https://alexdoss.com) | Email: [hello@alexdoss.com](mailto:hello@alexdoss.com) | LinkedIn: [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss) | GitHub: [github.com/whoisit](https://github.com/whoisit)
-
-> "Pipeline Technical Director applying 20 years of procedural 3D systems engineering to applied AI platforms, autonomous agentic CLI tooling, and synthetic data generation."
+Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.com](mailto:hello@alexdoss.com) | [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss) | [github.com/whoisit](https://github.com/whoisit)
 
 ---
 
-## Executive Overview
+## Overview
 
-- **Procedural Systems Engineering:** 20 years designing automated data flows, DCC pipelines, and scalable architectures across 180+ visual computing productions.
-- **Applied AI Engineering:** Multi-model failover pipelines (Gemini 3.1 Flash-Lite, DeepSeek, Qwen), structured JSON extraction, and token optimization.
-- **Full-Stack & Tools Development:** Production TypeScript, React 19, Vercel Serverless, Node.js, and local persistence (SQLite/Supabase).
-- **Procedural 3D & Synthetic Data:** SideFX Houdini (SOPs, HDAs, VEX), OpenUSD / Solaris domain randomization, and biomechanical simulation.
+- **Procedural 3D & Pipeline Engineering:** 20 years designing automated data flows, DCC tools (Houdini, OpenUSD, VEX, Python), and simulation architectures across 180+ productions.
+- **Applied AI Platforms:** Creator of ConnectVFX (1,200+ studio ETL intelligence) and CineScript (generative visual continuity studio).
+- **Agentic & CLI Tooling:** Autonomous scraping engines, multi-model failover waterfalls (Gemini 3.1 Flash-Lite, DeepSeek, Qwen), and process-safe concurrency systems (`VoiceMutex`).
+- **Full-Stack & Persistence:** Production TypeScript, React 19, Node.js, Vercel Serverless, and local SQLite / Supabase storage.
 
 ---
 
@@ -40,7 +37,7 @@ Full-stack platform converting screenplays and shot lists into production-grade 
 High-throughput procedural systems in SideFX Houdini generating photoreal synthetic datasets, physics simulations, and domain-randomized training data for computer vision and robotics.
 - Domain Randomization: OpenUSD & Solaris pipeline randomizing camera intrinsics, lighting spectra, micro-surface imperfections, and wear to eliminate the sim-to-real gap.
 - Procedural HDAs & VEX: Parametric asset synthesis with deterministic seed control for dataset scalability.
-- Production Pedigree: 20 years of mission-critical production rigor, including biomechanical cardiac simulation (HeartWorks) and 100,000+ agent autonomous crowd simulations.
+- Production Pedigree: 20 years of production experience, including biomechanical cardiac simulation (HeartWorks) and 100,000+ agent autonomous crowd simulations.
 
 ---
 
