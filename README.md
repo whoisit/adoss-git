@@ -21,6 +21,7 @@ Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studi
 - **Parsing & Fallback:** Gemini with automated fallback to DeepSeek and Qwen when rate-limited.
 - **Token Reduction:** Cheerio-based HTML preprocessor strips unnecessary tags, reducing LLM token consumption by ~70%.
 - **Skill Extraction:** Parses job descriptions to automatically index tool requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke).
+- **Automated Distribution:** Multi-channel broadcast engine formatting and distributing curated updates to LinkedIn, Discord, and Reddit.
 
 ---
 
