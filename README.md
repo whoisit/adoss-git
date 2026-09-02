@@ -19,7 +19,7 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 **Live:** [connectvfx.app](https://www.connectvfx.app/)  
 Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studios globally.
 - **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Raw HTML snapshots are committed locally to a Git ledger.
-- **Parsing & Fallback:** Gemini with automated fallback to DeepSeek and Qwen when rate-limited.
+- **Parsing & Fallback:** DeepSeek with automated fallback to Gemini and Qwen when rate-limited.
 - **Token Reduction:** Cheerio-based HTML preprocessor strips unnecessary tags, reducing LLM token consumption by ~70%.
 - **Skill Extraction:** Parses job descriptions to automatically index tool requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke).
 - **Automated Distribution:** Multi-channel broadcast engine formatting and distributing curated updates to LinkedIn, Discord, and Reddit.
