@@ -6,59 +6,54 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 
 ## Overview
 
-- **Procedural 3D & Pipeline Engineering:** 20 years building DCC tools, procedural workflows (Houdini, OpenUSD, VEX, Python), and simulation setups across 180+ productions.
-- **Applied AI Applications:** Built [ConnectVFX](https://www.connectvfx.app/) (job scraping & indexing pipeline for 1,200+ studios) and [CineScript](https://cinescript-storyboarder.vercel.app/) (AI storyboard generator with character consistency).
-- **CLI & Automation Tools:** Headless Playwright scrapers, multi-model LLM failovers (Gemini, DeepSeek, Qwen), and process-safe audio concurrency (`VoiceMutex`).
-- **Full-Stack & Data:** TypeScript, React 19, Node.js, Vercel Serverless, SQLite, and Supabase.
+Pipeline Technical Director & Applied AI Developer with 20 years of experience building procedural 3D systems, simulation workflows, and software automation across 180+ productions. Specialized in taking technical challenges end-to-end—from DCC pipeline architecture (Houdini, OpenUSD, VEX, Python) to full-stack web applications, headless data scrapers, and applied AI systems.
 
 ---
 
 ## Projects
 
-### 1. ConnectVFX — Automated Job Board & Scraper Pipeline
-**Live:** [connectvfx.app](https://www.connectvfx.app/)  
-Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studios globally.
-- **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Raw HTML snapshots are committed locally to a Git ledger.
-- **Parsing & Fallback:** DeepSeek with automated fallback to Gemini and Qwen when rate-limited.
-- **Token Reduction:** Cheerio-based HTML preprocessor strips unnecessary tags, reducing LLM token consumption by ~70%.
+### [ConnectVFX](https://www.connectvfx.app/) — Studio Job Board & Scraper Pipeline
+Automated pipeline monitoring open roles across 1,200+ VFX, animation, and gaming studios globally.
+- **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Stores raw HTML snapshots in Git for change tracking and debugging.
+- **Parsing & Fallback:** Multi-model parsing waterfall (DeepSeek primary with automated fallback to Gemini and Qwen) with structured schema extraction.
+- **LLM Preprocessing:** Cheerio-based HTML extraction strips navigational boilerplate, reducing input token volume by ~70%.
 - **Skill Extraction:** Parses job descriptions to automatically index tool requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke).
-- **Automated Distribution:** Multi-channel broadcast engine formatting and distributing curated updates to LinkedIn, Discord, and Reddit.
+- **Multi-Channel Syndication:** Automated broadcast engine formatting and distributing curated job alerts to LinkedIn, Discord webhooks, and Reddit communities.
 
 ---
 
-### 2. CineScript — AI Storyboard Generator
-**Live:** [cinescript-storyboarder.vercel.app](https://cinescript-storyboarder.vercel.app/)  
-Converts screenplays into visual storyboards while keeping character appearance and camera style consistent across shots.
-- **Character Consistency:** Generates and references character model sheets across shot prompts to prevent character drift between scenes.
-- **Screenplay Parser:** Converts screenplay sluglines and scene actions into camera, lighting, and lens directives for image models (FLUX / SDXL).
-- **Client-Side Export:** Generates multi-page storyboard PDFs directly in the browser via canvas rendering.
+### [CineScript](https://cinescript-storyboarder.vercel.app/) — AI Storyboard Generator
+Full-stack web application converting screenplays and shot lists into multi-panel visual storyboards.
+- **Character Consistency:** Generates and injects character reference model sheets into image prompts (FLUX / SDXL) to eliminate visual drift across shots.
+- **Screenplay Parser:** Multi-step prompt parser deconstructing script sluglines and scene action into camera lenses, lighting setups, and blocking directives.
+- **Client-Side Export:** Renders multi-page storyboard PDFs directly in the browser via canvas streaming to minimize server load.
 - **Stack:** React 19, TypeScript, Vercel Serverless Functions, Stripe billing.
 
 ---
 
-### 3. Procedural 3D & Synthetic Data
-Procedural 3D generation and simulation in SideFX Houdini for VFX and computer vision datasets.
-- **Synthetic Datasets:** Procedural asset generation in Houdini with OpenUSD / Solaris domain randomization (lighting, textures, wear) for training computer vision models.
-- **Procedural Tooling:** Custom HDAs and VEX scripts for geometry processing, debris, and crowd networks.
-- **Production Background:** Biomechanical cardiac simulation (*HeartWorks*) and crowd simulations exceeding 100,000 agents across 180+ productions.
+### Procedural 3D & Synthetic Training Data
+Procedural asset generation and simulation systems in SideFX Houdini for VFX and computer vision datasets.
+- **Synthetic Datasets:** OpenUSD & Solaris pipelines with domain randomization (lighting, textures, wear) to generate training data for computer vision models.
+- **Procedural Tooling:** Custom HDAs and VEX algorithms for geometry synthesis, destruction, and crowd behavior.
+- **Production Background:** 20 years in VFX production, including biomechanical cardiac simulation (*HeartWorks*) and crowd systems exceeding 100,000 agents across 180+ productions.
 
 ---
 
-### 4. CLI & Agentic Tooling
-- **`VoiceMutex`:** Inter-process concurrency lock preventing audio collision when multiple autonomous agent tasks run in parallel.
-- **Local Scrapers:** Playwright collectors that parse and write directly to local SQLite without sending data to third parties.
-- **Antigravity Toolkits:** Custom CLI commands and skill integrations for agent workflows.
+### CLI Tools & Automation
+- **`VoiceMutex`:** Inter-process concurrency lock preventing audio collisions during parallel terminal agent runs.
+- **Local Scrapers:** Playwright collectors that parse and write directly to local SQLite without external dependencies.
+- **Workflow Tooling:** Custom developer CLI extensions and automation scripts for terminal-driven coding.
 
 ---
 
-## Technical Skills
+## Technical Matrix
 
-| Area | Technologies |
+| Domain | Technologies |
 | :--- | :--- |
-| **Applied AI & LLMs** | Gemini, Claude, GPT, Grok, DeepSeek, Perplexity, FLUX, SDXL, Structured JSON |
-| **Pipeline & 3D** | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python (hou API), Redshift, Nuke |
-| **Web & Automation** | TypeScript, React 19, Node.js, Playwright, SQLite, Supabase, Vercel, Cloudflare Wrangler, Stripe |
-| **Languages & CLI Tools** | Python, TypeScript, VEX, SQL, Bash, PowerShell, Git, GitHub Actions, Antigravity CLI |
+| **Pipeline & 3D** | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python (`hou` API), Redshift, Nuke |
+| **Applied AI & LLMs** | LLM APIs (DeepSeek, Gemini, Claude, GPT), FLUX, SDXL, Schema Enforcement, Prompt Pipelines |
+| **Full-Stack & Cloud** | TypeScript, React 19, Node.js, Playwright, SQLite, Supabase, Vercel, Cloudflare Wrangler, Stripe |
+| **Core & Tooling** | Python, TypeScript, VEX, SQL, Bash, PowerShell, Git, GitHub Actions, Antigravity CLI |
 
 ---
 
