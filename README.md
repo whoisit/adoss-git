@@ -7,12 +7,12 @@ Website: [alexdoss.com](http://alexdoss.com) | Email: [hello@alexdoss.com](mailt
 
 ---
 
-## Live Portfolio Website
+## Executive Overview
 
-This repository contains the source for the portfolio website deployed to GitHub Pages:
-[https://adoss.github.io](https://adoss.github.io)
-
-*(Note: GitHub Pages serves this URL after the repository is published to GitHub under `adoss.github.io` or configured via repository Settings > Pages).*
+- **20+ Years Technical Rigor:** Systems architecture, procedural automation, and scalable data contracts across complex visual computing pipelines.
+- **Applied AI Engineering:** Multi-model failover pipelines (Gemini 3.1 Flash-Lite, DeepSeek, Qwen), structured JSON extraction, and token optimization.
+- **Full-Stack & Tools Development:** Production TypeScript, React 19, Vercel Serverless, Node.js, and local persistence (SQLite/Supabase).
+- **Procedural 3D & Synthetic Data:** SideFX Houdini (SOPs, HDAs, VEX), OpenUSD / Solaris domain randomization, and biomechanical simulation.
 
 ---
 
@@ -63,31 +63,7 @@ Custom agent tooling and workflow acceleration extensions built for autonomous e
 
 ---
 
-## Local Preview & Deployment
-
-### Local Preview
-To preview the website locally:
-```bash
-# Python local server
-python -m http.server 8000
-
-# or Node.js serve
-npx serve .
-```
-Open `http://localhost:8000` in your browser.
-
-### Publishing to GitHub Pages
-1. Create a repository on GitHub (named `adoss.github.io` or `adoss`).
-2. Add remote and push:
-   ```bash
-   git remote add origin https://github.com/adoss/adoss.github.io.git
-   git push -u origin main
-   ```
-3. If using repository name `adoss` instead of `adoss.github.io`, enable Pages in GitHub: **Settings -> Pages -> Build and deployment -> Source: Deploy from a branch (`main` / `/root`)**.
-
----
-
-## Contact & Links
+## Contact & Profiles
 
 - Website: [alexdoss.com](http://alexdoss.com)
 - Email: [hello@alexdoss.com](mailto:hello@alexdoss.com)
