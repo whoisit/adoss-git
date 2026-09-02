@@ -3,13 +3,13 @@
 Alex Doss | Systems Architect & Pipeline Developer | Amsterdam, NL  
 Website: [alexdoss.com](http://alexdoss.com) | Email: [hello@alexdoss.com](mailto:hello@alexdoss.com) | LinkedIn: [linkedin.com/in/alexdoss](http://linkedin.com/in/alexdoss) | GitHub: [github.com/adoss](https://github.com/adoss)
 
-> "Systems Architect & Pipeline Developer with 20 years of procedural problem-solving experience in visual computing, transitioned into engineering production-grade AI pipelines, full-stack tools, and synthetic data platforms at high velocity."
+> "Systems Architect & Pipeline Developer applying 20 years of procedural systems engineering to production-grade AI pipelines, full-stack tools, and synthetic data platforms."
 
 ---
 
 ## Executive Overview
 
-- **20+ Years Technical Rigor:** Systems architecture, procedural automation, and scalable data contracts across complex visual computing pipelines.
+- **Procedural Systems Engineering:** 20 years designing automated data flows, DCC pipelines, and scalable architectures across 180+ visual computing productions.
 - **Applied AI Engineering:** Multi-model failover pipelines (Gemini 3.1 Flash-Lite, DeepSeek, Qwen), structured JSON extraction, and token optimization.
 - **Full-Stack & Tools Development:** Production TypeScript, React 19, Vercel Serverless, Node.js, and local persistence (SQLite/Supabase).
 - **Procedural 3D & Synthetic Data:** SideFX Houdini (SOPs, HDAs, VEX), OpenUSD / Solaris domain randomization, and biomechanical simulation.
