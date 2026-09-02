@@ -18,7 +18,7 @@ Amsterdam, Netherlands | [alexdoss.com](https://alexdoss.com) | [hello@alexdoss.
 ### 1. ConnectVFX — Automated Job Board & Scraper Pipeline
 Aggregates and filters job postings from 1,200+ VFX, animation, and gaming studios globally.
 - **Data Ingestion:** Direct REST connectors for Greenhouse/Lever/Workday + headless Playwright scrapers for custom career portals. Raw HTML snapshots are committed locally to a Git ledger.
-- **Parsing & Fallback:** Gemini 3.1 Flash-Lite with automated fallback to DeepSeek and Qwen when rate-limited.
+- **Parsing & Fallback:** Gemini with automated fallback to DeepSeek and Qwen when rate-limited.
 - **Token Reduction:** Cheerio-based HTML preprocessor strips unnecessary tags, reducing LLM token consumption by ~70%.
 - **Skill Extraction:** Parses job descriptions to automatically index tool requirements (Houdini, USD, VEX, Python, Maya, Unreal, Nuke).
 
@@ -52,7 +52,7 @@ Procedural 3D generation and simulation in SideFX Houdini for VFX and computer v
 
 | Area | Technologies |
 | :--- | :--- |
-| **Applied AI & LLMs** | Gemini, DeepSeek, Qwen, FLUX, SDXL, Structured JSON outputs, Prompt pipelines |
+| **Applied AI & LLMs** | Gemini, Claude, GPT, Grok, DeepSeek, Perplexity, FLUX, SDXL, Structured JSON |
 | **Pipeline & 3D** | SideFX Houdini (SOPs, HDAs, Solaris), OpenUSD, VEX, Python (hou API), Redshift, Nuke |
 | **Web & Automation** | TypeScript, React 19, Node.js, Playwright, SQLite, Supabase, Vercel Serverless, REST APIs |
 | **Languages & Core** | Python, TypeScript, JavaScript, VEX, SQL, Bash, PowerShell, Git |
